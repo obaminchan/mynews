@@ -8,6 +8,8 @@ use App\Http\Controllers\Controller;
 class NewsController extends Controller
 {
     public function add() {
-        return view('admin.news.create');
+      //admin/newsディレクトリ配下のcreate.blade.html というファイルを呼び出す という意味
+     return view('admin.news.create');
+       
     }
 }
